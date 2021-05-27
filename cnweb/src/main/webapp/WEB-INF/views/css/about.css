@@ -1,0 +1,93 @@
+*{margin: 0; padding: 0;}
+
+
+body {
+	background-color: #FFF7F3;
+}
+
+.main-wrapper {
+    width: 80%;
+    margin: 3% auto;
+}
+.main-content {
+    width: 100%;
+    background: white;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 5%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.main-wrapper .author-avatar {
+    width: 25%;
+    margin: auto;
+}
+.author-avatar img {
+    border-radius: 50%;
+    object-fit: fill;
+    padding: 1%;
+    background-clip: content-box;
+    border: 2px solid gray;
+}
+.author-name {
+    margin-top: 2%;
+    font-family: system-ui;
+    font-size: 35px;
+    font-weight: bold;
+    color: #2E2F33;
+    margin-bottom: 2%;
+}
+.author-name:after {
+	content: '';
+	width: 50px;
+	height: 3px;
+	background-color: #F67280;
+	display: block;
+	margin: auto;
+	margin-top: 2%;
+}
+.author-role {
+    width: fit-content;
+    margin: auto;
+    font-family: system-ui;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: #F67280;
+    border-radius: 15px;
+}
+.author-about {
+    font-family: tahoma;
+    color: #94979E;
+    margin-bottom: 2%;
+}
+
+p.no-information {
+    font-family: tahoma;
+    font-weight: bold;
+    color: #e90000;
+}
+.tag-name span.material-icons-outlined {
+    margin: 0% 1%;
+    color: #F8B195;
+}
+
+.tag-name {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tag-name a {
+    text-decoration: none;
+    font-family: system-ui;
+    font-weight: 600;
+    color: #C06C84;
+    transition: .2s;
+}
+.tag-name a:hover {
+	text-decoration: underline;
+	color: #4c2833;
+}

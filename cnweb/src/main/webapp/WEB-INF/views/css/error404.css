@@ -1,0 +1,26 @@
+
+.ERROR404 {
+    float: left;
+    background: #F5F5F5;
+    width: 100%;
+    text-align: left;
+}
+.ERROR404 .note {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 35px;
+    padding-bottom: 2%;
+    position: relative;
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+
+.go-back{
+    margin-left: 30px;
+    font-size: 18px;
+    padding-bottom: 2%;
+    position: relative;
+    font-family: tahoma;
+    font-weight: normal;
+}

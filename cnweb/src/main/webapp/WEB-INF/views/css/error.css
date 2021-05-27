@@ -1,0 +1,16 @@
+
+.error {
+    float: left;
+    background: #F5F5F5;
+    width: 100%;
+    text-align: center;
+}
+.error .error-type {
+    margin-top: 50px;
+    font-size: 25px;
+    padding-bottom: 2%;
+    position: relative;
+    font-family: tahoma;
+    font-weight: bold;
+}
+

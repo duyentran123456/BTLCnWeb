@@ -1,0 +1,89 @@
+* { margin: 0; padding: 0; }
+
+
+
+body {
+	background-color: #FFF7F3;
+}
+/*css for main-wrapper*/
+.main-wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top: 75px;
+}
+/*css for main-content*/
+.main-content {
+    width: 70%;
+    float: left;
+}
+.main-content p {
+    font-family: tahoma;
+    font-size: 27px;
+    font-weight: bold;
+}
+.main-content .preview-blog {
+    padding: 1%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+.main-content .post-title {
+    font-family: system-ui;
+    font-size: 17px;
+    font-weight: bold;
+    color: #2E2F33;
+}
+.main-content .post-content {
+    font-family: system-ui;
+    font-size: 13px;
+    color: #94979E;
+}
+/*end main-content*/
+/*css for sidebar*/
+.side-bar {
+    width: 25%;
+    float: right;
+    background-color: white;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+.side-bar p {
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2E2F33;
+}
+.side-bar .tag-name {
+    position: relative;
+}
+a.icon-tag {
+    width: 100%;
+    text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #2e2f33;
+}
+
+.tag-name .icon-tag span.name-tag {
+    text-decoration: none;
+    margin-left: 4%;
+    position: absolute;
+    top: 20%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #6C5B7B;
+    font-family: tahoma;
+}
+
+.tag-name .icon-tag span.material-icons-outlined {
+    background-color: #F8B195;
+    padding: 1%;
+    border-radius: 50%;
+    color: white;
+}

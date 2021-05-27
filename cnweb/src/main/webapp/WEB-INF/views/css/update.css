@@ -1,0 +1,106 @@
+
+body {background-color: #FFF7F3;}
+/*post*/
+.post {
+	width: 100%;
+	box-sizing: border-box;
+	float: left;
+	background: white;
+	padding: 4%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+.post .post-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+}
+.post .leave-a-post {
+    font-family: tahoma;
+    color: #2E2F33;
+    margin-bottom: 2%;
+}
+.post p {
+    color: #97999E;
+    font-family: system-ui;
+    font-size: 13px;
+    margin-bottom: 1%;
+}
+
+.post .post-wrapper .title textarea {
+    height: 100%;
+    width: 100%;
+    border: 3px solid #F1F1F1;
+    border-radius: 5px;
+    transition: .3s;
+    height: 50px;
+}
+
+.post .post-wrapper .title textarea::placeholder {
+    font-family: system-ui;
+    color:  rgb(0, 0, 0, 0.2);
+}
+
+.post .post-wrapper .title textarea:hover {
+    border-color: #E5E5E5;
+    height: 50px;
+}
+
+.post .post-wrapper  .content textarea {
+    width: 100%;
+    border: 3px solid #F1F1F1;
+    border-radius: 5px;
+    transition: .3s;
+    height: 150px;
+} 
+
+.post .post-wrapper  .content textarea::placeholder {
+    font-family: system-ui;
+    color:  rgb(0, 0, 0, 0.2);
+}
+.post .post-wrapper .post-tag {
+    padding-top: 20px;
+}
+.post .post-wrapper .post-tag .checkbox + .label-checkbox {
+    border: black;
+    background-color: #c0c0c0;
+    border: none;
+    padding: 7px;
+    border-radius: 25px;
+    font-family: tahoma;
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+.post .post-wrapper .post-tag .checkbox:checked + .label-checkbox {
+    border: black;
+    background-image: linear-gradient(#F08080, #FFB6C1, #F08080);
+    border: none;
+    padding: 7px;
+    border-radius: 25px;
+    font-family: tahoma;
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+
+.post .post-wrapper .post-submit input {
+    background-color: #F67280;
+    border: none;
+    padding: 2%;
+    border-radius: 25px;
+    font-family: tahoma;
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+}

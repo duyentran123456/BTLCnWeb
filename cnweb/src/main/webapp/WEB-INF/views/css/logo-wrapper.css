@@ -1,0 +1,18 @@
+.logo-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 7%;
+}
+.logo-wrapper a.logo {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cur cursive;
+    color: #2E2F33;
+    font-weight: bolder;
+}
+.logo-wrapper .slogan {
+    font-family: monospace;
+    font-size: 20px;
+    color: #94979E;
+    margin-top: 1%;
+}

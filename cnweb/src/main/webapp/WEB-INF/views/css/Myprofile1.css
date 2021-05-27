@@ -1,0 +1,106 @@
+*{margin: 0; padding: 0;}
+
+
+body {
+	background-color: #FFF7F3;
+}
+
+.main-wrapper {
+    width: 80%;
+    margin: 3% auto;
+}
+.main-content {
+    width: 100%;
+    background: white;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 5%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.main-wrapper .author-avatar {
+    width: 25%;
+    margin: auto;
+}
+.author-avatar img {
+    border-radius: 50%;
+    object-fit: fill;
+    padding: 1%;
+    background-clip: content-box;
+    border: 2px solid gray;
+}
+.author-name {
+    margin-top: 2%;
+    font-family: system-ui;
+    font-size: 35px;
+    font-weight: bold;
+    color: #2E2F33;
+    margin-bottom: 2%;
+}
+.author-name:after {
+	content: '';
+	width: 50px;
+	height: 3px;
+	background-color: #F67280;
+	display: block;
+	margin: auto;
+	margin-top: 2%;
+}
+
+span.material-icons-outlined {
+    margin: 0% 1%;
+    color: #F8B195;
+}
+
+.main-wrapper .main-content .information {
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+.main-wrapper .main-content .information div {
+    padding: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+.main-wrapper .main-content .information #submit {
+    margin-top: 20px;
+    background-color: #c1c1c1;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: tahoma;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+}
+.main-wrapper .main-content .information #edit{
+    margin-top: 20px;
+    background-color: #F67280;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: tahoma;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+}
+.main-wrapper .main-content .information #edit:checked + .main-wrapper .main-content .information #submit{
+    margin-top: 20px;
+    background-color: #F67280;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: tahoma;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+}

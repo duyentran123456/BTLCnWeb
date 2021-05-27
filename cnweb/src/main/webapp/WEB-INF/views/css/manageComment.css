@@ -1,0 +1,47 @@
+* {margin: 0; padding: 0;}
+body {
+    background-color: #FFF7F3;
+}
+
+.main-wrapper {
+    width: 80%;
+    margin: 3% auto;
+    background: white;
+    padding: 3% 5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+.main-wrapper h2 {
+    font-family: tahoma;
+    color: #F67280;
+    font-weight: bold;
+}
+.comment {
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: #EBF0F6;
+    border-radius: 10px;
+}
+.comment a {
+    text-decoration: none;
+    color: #6C6F76;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 24px;
+    transition: .3s;
+}
+
+.comment a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.comment form {
+	float:right;
+}
+.main-wrapper p {
+    font-family: tahoma;
+    font-weight: bold;
+    color: palevioletred;
+}

@@ -1,0 +1,139 @@
+* {margin: 0; padding: 0;}
+
+body {background-color: #FFF7F3;}
+.logo-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+.logo-wrapper a.logo {
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Press Start 2P', cur cursive;
+    color: #2E2F33;
+    font-weight: bolder;
+}
+.logo-wrapper .slogan {
+    font-family: monospace;
+    font-size: 20px;
+    color: #94979E;
+    margin-top: 1%;
+}
+
+.main-wrapper {
+    width: 90%;
+    margin: auto;
+}
+.content-wrapper {
+	width: 70%;
+}
+
+/*post*/
+.post {
+    width: 100%;
+    float: left;
+    background: white;
+    padding: 3%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+.post .post-title {
+    font-family: tahoma;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.post .post-title:after {
+	content: '';
+    width: 50%;
+    height: 3px;
+    background-color: #F67280;
+    display: block;
+    margin: 5% 0%;
+}
+.post .post-content {
+    font-family: system-ui;
+    font-size: 18px;
+}
+.author {
+    width: 100%;
+    float: left;
+    margin: 3% 0%;
+    background-color: white;
+    padding: 3%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+.author .author-avatar {
+    float: left;
+    padding-right: 5%;
+    margin-right: 5%;
+    border-right: 2px solid lightgray;
+}
+.author .author-avatar img {
+    border-radius: 50%;
+}
+.author .author-information {
+    float: left;
+    width: 70%;
+}
+.author .author-information .author-name {
+    font-family: tahoma;
+    margin-bottom: 2%;
+}
+.author .author-information p {
+    font-family: system-ui;
+    color: #94979E;
+    font-size: 15px;
+}
+
+/*comment*/
+.comment {
+	width: 100%;
+	box-sizing: border-box;
+	float: left;
+	background: white;
+	padding: 4%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+.comment-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+}
+.comment .leave-a-reply {
+    font-family: tahoma;
+    color: #2E2F33;
+    margin-bottom: 2%;
+}
+.comment p {
+    color: #97999E;
+    font-family: system-ui;
+    font-size: 13px;
+    margin-bottom: 1%;
+}
+
+.comment .comment-wrapper textarea {
+    width: 100%;
+    border: 3px solid #F1F1F1;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.comment .comment-wrapper textarea:hover {border-color: #E5E5E5;}
+.comment .comment-wrapper input {
+    background-color: #F67280;
+    border: none;
+    padding: 2%;
+    border-radius: 25px;
+    font-family: tahoma;
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+}
